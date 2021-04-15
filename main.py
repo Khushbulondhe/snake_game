@@ -7,6 +7,7 @@ SIZE = 40
 BACKGROUND_COLOR = (63, 171, 79)
 
 class Apple:
+    
     def __init__(self, parent_screen):
         self.image = pygame.image.load("resource/apple.jpg").convert()
         self.parent_screen = parent_screen
